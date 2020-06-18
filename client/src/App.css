@@ -1,0 +1,64 @@
+.brain {
+  min-height: 100vh;
+}
+
+.App {
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  font-family: Ubuntu, sans-serif;
+  align-items: center;
+  height: 40px;
+  background-color: black;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+  color: white;
+}
+
+nav .left {
+  margin-right: auto;
+}
+
+nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:active {
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  font-family: Ubuntu, sans-serif;
+}
+
+p {
+  font-family: Ubuntu, sans-serif;
+}
+
+footer {
+  font-family: Ubuntu, sans-serif;
+  padding: 0 10px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
