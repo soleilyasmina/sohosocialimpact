@@ -46,6 +46,6 @@ class ArtistsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def artist_params
-      params.require(:artist).permit(:name, :website)
+      params.require(:artist).permit(:name, :website, :username, :password)
     end
 end
