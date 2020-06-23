@@ -4,6 +4,9 @@
 
 .App {
   margin: 10px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 25px;
 }
 
 nav {

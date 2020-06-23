@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <Layout>
-      <div className="App">
+      <body className="App">
         <Switch>
           <Route exact path="/" render={() => (
             <h1>Home</h1>
@@ -21,7 +21,7 @@ function App() {
             <h1>Contact</h1>
           )} />
         </Switch>
-      </div>
+      </body>
     </Layout>
   );
 }
